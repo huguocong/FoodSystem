@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.FoodMapper" >
+<resultMap id="BaseResultMap" type="pojo.Food" >
+  <id column="id" property="id" jdbcType="INTEGER" />
+  <result column="foodName" property="foodname" jdbcType="VARCHAR" />
+  <result column="foodType_id1" property="foodtypeId1" jdbcType="INTEGER" />
+  <result column="foodType_id2" property="foodtypeId2" jdbcType="INTEGER" />
+  <result column="price" property="price" jdbcType="DOUBLE" />
+  <result column="mprice" property="mprice" jdbcType="DOUBLE" />
+  <result column="remark" property="remark" jdbcType="VARCHAR" />
+  <result column="img" property="img" jdbcType="VARCHAR" />
+  <result column="istuijian" property="istuijian" jdbcType="INTEGER" />
+  <result column="isnew" property="isnew" jdbcType="INTEGER" />
+</resultMap>
+<sql id="Example_Where_Clause" >
+  <where >
+    <foreach collection="oredCriteria" item="criteria" separator="or" >
+      <if test="criteria.valid" >
+        <trim prefix="(" suffix=")" prefixOverrides="and" >
+          <foreach collection="criteria.criteria" item="criterion" >
+            <choose >
+              <when test="criterion.noValue" >
+                and ${criterion.condition}
+              </when>
+              <when test="criterion.singleValue" >
+                and ${criterion.condition} #{criterion.value}
+              </when>
+              <when test="criterion.betweenValue" >
+                and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+              </when>
+              <when test="criterion.listValue" >
+                and ${criterion.condition}
+                <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                  #{listItem}
+                </foreach>
+              </when>
+            </choose>
+          </foreach>
+        </trim>
+      </if>
+    </foreach>
+  </where>
+</sql>
+<sql id="Update_By_Example_Where_Clause" >
+  <where >
+    <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+      <if test="criteria.valid" >
+        <trim prefix="(" suffix=")" prefixOverrides="and" >
+          <foreach collection="criteria.criteria" item="criterion" >
+            <choose >
+              <when test="criterion.noValue" >
+                and ${criterion.condition}
+              </when>
+              <when test="criterion.singleValue" >
+                and ${criterion.condition} #{criterion.value}
+              </when>
+              <when test="criterion.betweenValue" >
+                and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+              </when>
+              <when test="criterion.listValue" >
+                and ${criterion.condition}
+                <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                  #{listItem}
+                </foreach>
+              </when>
+            </choose>
+          </foreach>
+        </trim>
+      </if>
+    </foreach>
+  </where>
+</sql>
+<sql id="Base_Column_List" >
+    id, foodName, foodType_id1, foodType_id2, price, mprice, remark, img, istuijian,
+    isnew
+  </sql>
+<select id="selectByExample" resultMap="BaseResultMap" parameterType="pojo.FoodExample" >
+  select
+  <if test="distinct" >
+    distinct
+  </if>
+  <include refid="Base_Column_List" />
+  from food
+  <if test="_parameter != null" >
+    <include refid="Example_Where_Clause" />
+  </if>
+  <if test="orderByClause != null" >
+    order by ${orderByClause}
+  </if>
+</select>
+<select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+  select
+  <include refid="Base_Column_List" />
+  from food
+  where id = #{id,jdbcType=INTEGER}
+</select>
+<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from food
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+<delete id="deleteByExample" parameterType="pojo.FoodExample" >
+  delete from food
+  <if test="_parameter != null" >
+    <include refid="Example_Where_Clause" />
+  </if>
+</delete>
+<insert id="insert" parameterType="pojo.Food" >
+    insert into food (id, foodName, foodType_id1,
+      foodType_id2, price, mprice,
+      remark, img, istuijian,
+      isnew)
+    values (#{id,jdbcType=INTEGER}, #{foodname,jdbcType=VARCHAR}, #{foodtypeId1,jdbcType=INTEGER},
+      #{foodtypeId2,jdbcType=INTEGER}, #{price,jdbcType=DOUBLE}, #{mprice,jdbcType=DOUBLE},
+      #{remark,jdbcType=VARCHAR}, #{img,jdbcType=VARCHAR}, #{istuijian,jdbcType=INTEGER},
+      #{isnew,jdbcType=INTEGER})
+  </insert>
+<insert id="insertSelective" parameterType="pojo.Food" >
+  insert into food
+  <trim prefix="(" suffix=")" suffixOverrides="," >
+    <if test="id != null" >
+      id,
+    </if>
+    <if test="foodname != null" >
+      foodName,
+    </if>
+    <if test="foodtypeId1 != null" >
+      foodType_id1,
+    </if>
+    <if test="foodtypeId2 != null" >
+      foodType_id2,
+    </if>
+    <if test="price != null" >
+      price,
+    </if>
+    <if test="mprice != null" >
+      mprice,
+    </if>
+    <if test="remark != null" >
+      remark,
+    </if>
+    <if test="img != null" >
+      img,
+    </if>
+    <if test="istuijian != null" >
+      istuijian,
+    </if>
+    <if test="isnew != null" >
+      isnew,
+    </if>
+  </trim>
+  <trim prefix="values (" suffix=")" suffixOverrides="," >
+    <if test="id != null" >
+      #{id,jdbcType=INTEGER},
+    </if>
+    <if test="foodname != null" >
+      #{foodname,jdbcType=VARCHAR},
+    </if>
+    <if test="foodtypeId1 != null" >
+      #{foodtypeId1,jdbcType=INTEGER},
+    </if>
+    <if test="foodtypeId2 != null" >
+      #{foodtypeId2,jdbcType=INTEGER},
+    </if>
+    <if test="price != null" >
+      #{price,jdbcType=DOUBLE},
+    </if>
+    <if test="mprice != null" >
+      #{mprice,jdbcType=DOUBLE},
+    </if>
+    <if test="remark != null" >
+      #{remark,jdbcType=VARCHAR},
+    </if>
+    <if test="img != null" >
+      #{img,jdbcType=VARCHAR},
+    </if>
+    <if test="istuijian != null" >
+      #{istuijian,jdbcType=INTEGER},
+    </if>
+    <if test="isnew != null" >
+      #{isnew,jdbcType=INTEGER},
+    </if>
+  </trim>
+</insert>
+<select id="countByExample" parameterType="pojo.FoodExample" resultType="java.lang.Integer" >
+  select count(*) from food
+  <if test="_parameter != null" >
+    <include refid="Example_Where_Clause" />
+  </if>
+</select>
+<update id="updateByExampleSelective" parameterType="map" >
+  update food
+  <set >
+    <if test="record.id != null" >
+      id = #{record.id,jdbcType=INTEGER},
+    </if>
+    <if test="record.foodname != null" >
+      foodName = #{record.foodname,jdbcType=VARCHAR},
+    </if>
+    <if test="record.foodtypeId1 != null" >
+      foodType_id1 = #{record.foodtypeId1,jdbcType=INTEGER},
+    </if>
+    <if test="record.foodtypeId2 != null" >
+      foodType_id2 = #{record.foodtypeId2,jdbcType=INTEGER},
+    </if>
+    <if test="record.price != null" >
+      price = #{record.price,jdbcType=DOUBLE},
+    </if>
+    <if test="record.mprice != null" >
+      mprice = #{record.mprice,jdbcType=DOUBLE},
+    </if>
+    <if test="record.remark != null" >
+      remark = #{record.remark,jdbcType=VARCHAR},
+    </if>
+    <if test="record.img != null" >
+      img = #{record.img,jdbcType=VARCHAR},
+    </if>
+    <if test="record.istuijian != null" >
+      istuijian = #{record.istuijian,jdbcType=INTEGER},
+    </if>
+    <if test="record.isnew != null" >
+      isnew = #{record.isnew,jdbcType=INTEGER},
+    </if>
+  </set>
+  <if test="_parameter != null" >
+    <include refid="Update_By_Example_Where_Clause" />
+  </if>
+</update>
+<update id="updateByExample" parameterType="map" >
+  update food
+  set id = #{record.id,jdbcType=INTEGER},
+  foodName = #{record.foodname,jdbcType=VARCHAR},
+  foodType_id1 = #{record.foodtypeId1,jdbcType=INTEGER},
+  foodType_id2 = #{record.foodtypeId2,jdbcType=INTEGER},
+  price = #{record.price,jdbcType=DOUBLE},
+  mprice = #{record.mprice,jdbcType=DOUBLE},
+  remark = #{record.remark,jdbcType=VARCHAR},
+  img = #{record.img,jdbcType=VARCHAR},
+  istuijian = #{record.istuijian,jdbcType=INTEGER},
+  isnew = #{record.isnew,jdbcType=INTEGER}
+  <if test="_parameter != null" >
+    <include refid="Update_By_Example_Where_Clause" />
+  </if>
+</update>
+<update id="updateByPrimaryKeySelective" parameterType="pojo.Food" >
+  update food
+  <set >
+    <if test="foodname != null" >
+      foodName = #{foodname,jdbcType=VARCHAR},
+    </if>
+    <if test="foodtypeId1 != null" >
+      foodType_id1 = #{foodtypeId1,jdbcType=INTEGER},
+    </if>
+    <if test="foodtypeId2 != null" >
+      foodType_id2 = #{foodtypeId2,jdbcType=INTEGER},
+    </if>
+    <if test="price != null" >
+      price = #{price,jdbcType=DOUBLE},
+    </if>
+    <if test="mprice != null" >
+      mprice = #{mprice,jdbcType=DOUBLE},
+    </if>
+    <if test="remark != null" >
+      remark = #{remark,jdbcType=VARCHAR},
+    </if>
+    <if test="img != null" >
+      img = #{img,jdbcType=VARCHAR},
+    </if>
+    <if test="istuijian != null" >
+      istuijian = #{istuijian,jdbcType=INTEGER},
+    </if>
+    <if test="isnew != null" >
+      isnew = #{isnew,jdbcType=INTEGER},
+    </if>
+  </set>
+  where id = #{id,jdbcType=INTEGER}
+</update>
+<update id="updateByPrimaryKey" parameterType="pojo.Food" >
+    update food
+    set foodName = #{foodname,jdbcType=VARCHAR},
+      foodType_id1 = #{foodtypeId1,jdbcType=INTEGER},
+      foodType_id2 = #{foodtypeId2,jdbcType=INTEGER},
+      price = #{price,jdbcType=DOUBLE},
+      mprice = #{mprice,jdbcType=DOUBLE},
+      remark = #{remark,jdbcType=VARCHAR},
+      img = #{img,jdbcType=VARCHAR},
+      istuijian = #{istuijian,jdbcType=INTEGER},
+      isnew = #{isnew,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectByExample1" resultMap="BaseResultMap" parameterType="pojo.FoodExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from food
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+    limit 0,10
+  </select>
+<!--
+<resultMap id="BaseResultMap1" type="pojo.Food" >
+  <id column="id" property="id" jdbcType="INTEGER" />
+  <result column="foodName" property="foodname" jdbcType="VARCHAR" />
+  <result column="foodType_id" property="foodtypeId" jdbcType="INTEGER" />
+  <result column="price" property="price" jdbcType="DOUBLE" />
+  <result column="mprice" property="mprice" jdbcType="DOUBLE" />
+  <result column="remark" property="remark" jdbcType="VARCHAR" />
+  <result column="img" property="img" jdbcType="VARCHAR" />
+  <association property="foodcat" javaType="pojo.Foodcat">
+    <id column="fid" property="id" jdbcType="INTEGER" />
+    <result column="typeName" property="typename" jdbcType="VARCHAR" />
+  </association>
+</resultMap>
+<sql id="Base_Column_List1" >
+    id, foodName, foodType_id, price, mprice, remark, img
+  </sql>
+<select id="selectByExample1" parameterType="pojo.FoodExample" resultMap="BaseResultMap1">
+  select
+  <if test="distinct" >
+    distinct
+  </if>
+  f.id, f.foodName, f.foodType_id1, f.foodType_id2, f.price, f.mprice, f.remark, f.img, f.istuijian,
+  f.isnew
+  ,t.id fid,t.typeName
+  from food f left outer join foodcat t on t.id=f.foodType_id
+  <if test="_parameter != null" >
+    <include refid="Example_Where_Clause" />
+  </if>
+  <if test="orderByClause != null" >
+    order by ${orderByClause}
+  </if>
+</select>
+
+<select id="selectByPrimaryKey1" resultMap="BaseResultMap1" parameterType="java.lang.Integer" >
+    select
+    f.id, f.foodName, f.foodType_id, f.price, f.mprice, f.remark, f.img
+    ,t.id fid,t.typeName
+    from food f left outer join foodtype t on t.id=f.foodType_id
+    where f.id = #{id,jdbcType=INTEGER}
+  </select>-->
+</mapper>

@@ -1,0 +1,10 @@
+Service\ServiceImpl\FoodCatServiceImpl.class
+Service\ServiceImpl\FoodServiceImpl.class
+Service\UserService.class
+Service\ServiceImpl\DinnerTableServiceImpl.class
+Service\ServiceImpl\OrdersServiceImpl.class
+Service\ServiceImpl\UserServiceImpl.class
+Service\DinnerTableService.class
+Service\FoodCatService.class
+Service\FoodService.class
+Service\OrdersService.class

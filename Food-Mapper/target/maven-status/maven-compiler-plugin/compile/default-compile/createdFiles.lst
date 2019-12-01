@@ -1,0 +1,6 @@
+mapper\UserMapper.class
+mapper\OrderdetailMapper.class
+mapper\FoodMapper.class
+mapper\DinnertableMapper.class
+mapper\OrdersMapper.class
+mapper\FoodcatMapper.class

@@ -1,0 +1,7 @@
+Controller\AdminIndexController.class
+Controller\AdminFoodController.class
+Controller\AdminOrdersController.class
+Controller\AdminFoodCatController.class
+Controller\AdminTableController.class
+Controller\AdminUserController.class
+Interceptor\AdminInterceptor.class

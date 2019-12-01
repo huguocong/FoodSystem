@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	<context:component-scan base-package="Controller" />
+	<mvc:annotation-driven />
+	<!-- 配置视图解析器 -->
+	<bean	class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- 前缀 -->
+		<property name="prefix" value="/WEB-INF/" />
+		<!-- 后缀 -->
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!--拦截器-->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<!--拦截请求-->
+			<mvc:mapping path="/CaiDan/**"/>
+			<mvc:mapping path="/index.do"/>
+			<mvc:mapping path="/Cart/**"/>
+			<mvc:mapping path="/Order/**"/>
+			<mvc:mapping path="/User/**"/>
+			<!--不进行拦截一下请求-->
+			<mvc:exclude-mapping path="/User/Login.do"/>
+			<mvc:exclude-mapping path="/User/ToLogin.do"/>
+			<mvc:exclude-mapping path="/User/ToRsgister.do"/>
+			<mvc:exclude-mapping path="/User/Rsgister.do"/>
+			<bean class="Interceptor.UserInterceptor"/>
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/Order/**"/>
+			<bean class="Interceptor.OrderInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+</beans>

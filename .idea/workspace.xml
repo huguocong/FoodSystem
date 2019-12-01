@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97e4c3d2-b37e-4644-82e1-9db6706db80e" name="Default Changelist" comment="网络订餐系统完成">
+      <change afterPath="$PROJECT_DIR$/Food-Common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/src/main/java/Utils/CookUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/src/main/java/Utils/FastDFSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/src/main/java/Utils/UUIDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/src/main/java/Utils/UploadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/src/main/java/x.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/Food-Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/classes/Utils/CookUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/classes/Utils/FastDFSClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/classes/Utils/UUIDUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/classes/Utils/UploadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/classes/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/classes/x.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/DinnertableMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/FoodMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/FoodcatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/OrderdetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/DinnertableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/FoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/FoodcatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/OrderdetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/Food.Mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/DinnertableMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/DinnertableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/FoodMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/FoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/FoodcatMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/FoodcatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/OrderdetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/OrderdetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/OrdersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/My/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/My/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/My/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/My/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/My/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Dinnertable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/DinnertableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/FoodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Foodcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/FoodcatExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Orderdetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/OrderdetailExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/OrdersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/Food.Pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/My/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/My/CartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/My/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/My/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/My/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/Dinnertable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/DinnertableExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/DinnertableExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/DinnertableExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/DinnertableExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/Food.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/Foodcat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodcatExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodcatExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodcatExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/FoodcatExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/Orderdetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrderdetailExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrderdetailExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrderdetailExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrderdetailExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrdersExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrdersExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrdersExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/OrdersExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/classes/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/DinnerTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/FoodCatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/DinnerTableServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/FoodCatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/FoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/src/main/java/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/Food.Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/DinnerTableService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/FoodCatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/FoodService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/OrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/ServiceImpl/DinnerTableServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/ServiceImpl/FoodCatServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/ServiceImpl/FoodServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/ServiceImpl/OrdersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/ServiceImpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/classes/Service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/CaiDanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/java/Interceptor/OrderInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/java/Interceptor/UserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/resource/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/resource/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/Register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/caidan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/myorder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/pub/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/pub/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/Style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/dtree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/image/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/image/pub/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/article.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/common.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/dialog_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/finalbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/index.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/loading_bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/loading_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/member.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/message.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/order.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/password.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/product.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/register.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/review.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/js/dtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/src/main/webapp/js/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/Controller/CaiDanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/Controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/Controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/Controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/Controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/Interceptor/OrderInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/Interceptor/UserInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/resource/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/resource/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/jsp/Register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/jsp/caidan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/jsp/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/jsp/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/jsp/myorder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/jsp/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/Food-Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/Food.Mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/Food.Pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/Food.Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/erp.commom-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/erp.pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/fastdfs-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/mybatis-paginator-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-3.4.2-fix.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/pub/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/pub/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/Style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/dtree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/image/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/image/pub/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/article.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/common.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/dialog_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/finalbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/index.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/loading_bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/loading_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/member.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/message.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/order.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/password.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/product.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/register.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/images/review.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/js/dtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/Food.Toltal-1.0-SNAPSHOT/js/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/Controller/CaiDanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/Controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/Controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/Controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/Controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/Interceptor/OrderInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/Interceptor/UserInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/resource/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/resource/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/logs/access_log.2019-12-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/Register_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/Register_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/caidan_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/caidan_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/cart_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/cart_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/desc_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/desc_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/myorder_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/myorder_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/order_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Toltal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/order_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminFoodCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminFoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminOrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminTableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/java/Interceptor/AdminInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/resource/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/resource/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/resource/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/DinnerTable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/DinnerTableSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/Food.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/FoodCat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/FoodCatSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/FoodSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/Orderdetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/Orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/ToLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/common_style_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/QueryArea_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/TableTail_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/TableTitle_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/button_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/inputPageHeadBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/pageNum_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/title_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/title_bg_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/img/title_bg_head.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/index_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/erp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/i1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/i2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/i3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/login_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/remember.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/shadow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/unfold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/images/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/plugins/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/plugins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/plugins/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/plugins/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/plugins/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/plugins/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/main/webapp/admin/plugins/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/src/test/test/test/x.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/DinnerTable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/DinnerTableSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/Food.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/FoodCat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/FoodCatSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/FoodSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/Orderdetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/Orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/ToLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/admin/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/Controller/AdminFoodCatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/Controller/AdminFoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/Controller/AdminIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/Controller/AdminOrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/Controller/AdminTableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/Controller/AdminUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/Interceptor/AdminInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/resource/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/resource/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/resource/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/Food-Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/Food.Mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/Food.Pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/Food.Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/erp.commom-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/erp.pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/fastdfs-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-paginator-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-3.4.2-fix.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/common_style_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/QueryArea_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/TableTail_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/TableTitle_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/button_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/inputPageHeadBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/pageNum_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/title_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/title_bg_end.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/img/title_bg_head.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/index_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/erp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/i1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/i2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/i3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/login_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/remember.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/shadow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/unfold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/images/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/plugins/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/plugins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/plugins/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/plugins/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/plugins/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/plugins/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/Food.Web-1.0-SNAPSHOT/admin/plugins/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/Controller/AdminFoodCatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/Controller/AdminFoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/Controller/AdminIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/Controller/AdminOrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/Controller/AdminTableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/Controller/AdminUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/Interceptor/AdminInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/resource/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/resource/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/resource/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/logs/access_log.2019-12-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/DinnerTable_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/DinnerTable_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/ToLogin_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/ToLogin_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/home_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/home_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/login_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food-Web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/admin/jsp/login_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diancan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Food-Common/target/" />
+    <ignored path="$PROJECT_DIR$/Food-Pojo/target/" />
+    <ignored path="$PROJECT_DIR$/Food-Mapper/target/" />
+    <ignored path="$PROJECT_DIR$/Food-Service/target/" />
+    <ignored path="$PROJECT_DIR$/Food-Web/target/" />
+    <ignored path="$PROJECT_DIR$/Food-Toltal/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inputPageHeadBg</find>
+      <find>./</find>
+      <find>DinnerTable</find>
+      <find>Food</find>
+      <find>../../User</find>
+      <find>..//</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Orders</replace>
+      <replace>../../User/</replace>
+      <replace>AdminTable</replace>
+      <replace>AdminFood</replace>
+      <replace>../</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/pom.xml" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Food-Common/src/main/java/Utils/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/Food-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/FoodSave.jsp" />
+        <option value="$PROJECT_DIR$/Food-Common/src/main/java/x.java" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/resources/resource/application.properties" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/resources/resource/resource.properties" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/java/Interceptor/AdminInterceptor.java" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminFoodController.java" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/Food.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/pub/foot.jsp" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/FoodServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/FoodService.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/CaiDanController.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/caidan.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/Food-Pojo/src/main/java/My/CartItem.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/desc.jsp" />
+        <option value="$PROJECT_DIR$/Food-Pojo/src/main/java/My/Cart.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/orderget.jsp" />
+        <option value="$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/OrdersMapper.java" />
+        <option value="$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/OrdersMapper.xml" />
+        <option value="$PROJECT_DIR$/Food-Web/src/test/test/test/x.java" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/DinnerTableService.java" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/DinnerTableServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/FoodCat.jsp" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminUserController.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/pub/header.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/java/Interceptor/OrderInterceptor.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/java/Interceptor/UserInterceptor.java" />
+        <option value="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Orderdetail.java" />
+        <option value="$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Orders.java" />
+        <option value="$PROJECT_DIR$/Food-Pojo/src/main/java/My/PageResult.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/cart.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/CartController.java" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/OrdersService.java" />
+        <option value="$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/OrdersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/order.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/myorder.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/Register.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\maven3.3.9\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Food.Pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Food.Pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Food.Web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Food.Web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="668" />
+    <option name="y" value="8" />
+    <option name="width" value="1943" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.certificates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAIU\work\Food-Parent" />
+      <recent name="D:\IDEAIU\work\Food-Parent\Food-Toltal\src\main\webapp\images" />
+      <recent name="D:\IDEAIU\work\Food-Parent\Food-Toltal\src\main\webapp\css\my" />
+      <recent name="D:\IDEAIU\work\Food-Parent\Food-Common\src\main\java\Utils" />
+      <recent name="D:\IDEAIU\work\Food-Parent\Food-Toltal\src\main\webapp\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="My" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAIU\work\Food-Parent\Food-Toltal\src\main\webapp\image\x" />
+      <recent name="D:\IDEAIU\work\Food-Parent\Food-Toltal\src\main\webapp\WEB-INF" />
+      <recent name="D:\IDEAIU\work\Food-Parent\Food-Web\src\main\webapp\WEB-INF\admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.Food.Web [tomcat7:run]">
+    <configuration name="AdminFoodController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller.AdminFoodController" />
+      <module name="Food-Web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UUIDUtils" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.UUIDUtils" />
+      <module name="Food-Common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="x" />
+      <module name="Food-Common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x.ss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Food-Web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.x" />
+      <option name="METHOD_NAME" value="ss" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x.ssss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Food-Web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.x" />
+      <option name="METHOD_NAME" value="ssss" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x.te" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Food-Web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.x" />
+      <option name="METHOD_NAME" value="te" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Food.Total" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Food-Toltal" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Food.Web [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Food-Web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.UUIDUtils" />
+      <item itemvalue="Application.x" />
+      <item itemvalue="Application.AdminFoodController" />
+      <item itemvalue="JUnit.x.te" />
+      <item itemvalue="JUnit.x.ss" />
+      <item itemvalue="JUnit.x.ssss" />
+      <item itemvalue="Maven.Food.Total" />
+      <item itemvalue="Maven.Food.Web [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.x.ssss" />
+        <item itemvalue="JUnit.x.ss" />
+        <item itemvalue="Application.AdminFoodController" />
+        <item itemvalue="Application.x" />
+        <item itemvalue="JUnit.x.te" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97e4c3d2-b37e-4644-82e1-9db6706db80e" name="Default Changelist" comment="" />
+      <created>1574240263227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574240263227</updated>
+      <workItem from="1574240266625" duration="1871000" />
+      <workItem from="1574298332522" duration="15586000" />
+      <workItem from="1574388558735" duration="13750000" />
+      <workItem from="1574470114962" duration="19828000" />
+      <workItem from="1574559293290" duration="25281000" />
+      <workItem from="1574641572402" duration="25837000" />
+      <workItem from="1574728206270" duration="7473000" />
+      <workItem from="1574779809470" duration="458000" />
+      <workItem from="1574813981933" duration="11952000" />
+      <workItem from="1574837027761" duration="18541000" />
+      <workItem from="1574859916199" duration="4704000" />
+      <workItem from="1574900664267" duration="25775000" />
+      <workItem from="1574988080988" duration="27641000" />
+      <workItem from="1575075721119" duration="32750000" />
+      <workItem from="1575160143217" duration="29112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="x_ss - 2019.11.29 at 14h 28m 40s.xml">
+      <configuration name="x.ss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ss - 2019.11.29 at 16h 47m 15s.xml">
+      <configuration name="x.ss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 15h 50m 49s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 15h 52m 52s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 15h 56m 45s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 15h 58m 20s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 15h 59m 27s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 16h 06m 08s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 16h 17m 48s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="x_ssss - 2019.11.30 at 16h 19m 17s.xml">
+      <configuration name="x.ssss" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="260559000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="415" y="4" width="1554" height="832" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22580644" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.8417047" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54946727" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932796" weight="0.94063926" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067204" side_tool="true" weight="0.42009133" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3299566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.13776882" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSON Viewer" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28360215" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46995378" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49932796" visible="true" weight="0.084745765" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067204" side_tool="true" weight="0.42372882" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15389785" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSON Viewer" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="网络订餐系统完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="网络订餐系统完成" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="33" column="81" selection-start-line="33" selection-start-column="81" selection-end-line="33" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Pojo/src/main/java/My/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/caidan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1475">
+          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4888" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/my/style.css" />
+    <entry file="file://$PROJECT_DIR$/Food-Mapper/src/main/java/mapper/OrdersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/test/test/test/x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Mapper/src/main/resources/mapper/OrdersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="275" column="44" lean-forward="true" selection-start-line="275" selection-start-column="44" selection-end-line="275" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/image/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/css/my/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/article.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Service/src/main/java/Service/DinnerTableService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Dinnertable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/FoodCat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/ToLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/desc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="95" selection-start-line="95" selection-end-line="95" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/java/Interceptor/AdminInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/images/12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Service/src/main/java/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/pub/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/CaiDanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="36" column="63" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="36" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/java/Controller/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="51" />
+          <folding>
+            <element signature="e#2243#2526#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Orderdetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1525">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Pojo/src/main/java/My/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Pojo/src/main/java/pojo/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/Food.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="112" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/java/Interceptor/UserInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/java/Interceptor/OrderInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1555">
+          <caret line="94" column="71" lean-forward="true" selection-start-line="94" selection-start-column="71" selection-end-line="94" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Pojo/src/main/java/My/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-863">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/OrdersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1642">
+          <caret line="118" column="57" selection-start-line="118" selection-start-column="57" selection-end-line="118" selection-end-column="57" />
+          <folding>
+            <element signature="e#2644#2645#0" expanded="true" />
+            <element signature="e#2696#2697#0" expanded="true" />
+            <element signature="e#3696#3697#0" expanded="true" />
+            <element signature="e#3747#3748#0" expanded="true" />
+            <element signature="e#3805#3806#0" expanded="true" />
+            <element signature="e#3869#3870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Service/src/main/java/Service/OrdersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/FoodServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Service/src/main/java/Service/ServiceImpl/DinnerTableServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/java/Controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3236#3237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#p#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#p#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/myorder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+          <folding>
+            <element signature="e#2702#2708#0#HTML" expanded="true" />
+            <element signature="e#3077#3083#0#HTML" expanded="true" />
+            <element signature="e#3083#3089#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="54" column="147" selection-start-line="54" selection-start-column="93" selection-end-line="54" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Web/src/main/webapp/WEB-INF/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Food-Toltal/src/main/webapp/WEB-INF/jsp/Register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin SDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Food-Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

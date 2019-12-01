@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:27:59 +0800] "GET / HTTP/1.1" 200 2964 http-bio-9090-exec-2 207
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:27:59 +0800] "GET /admin/images/1.png HTTP/1.1" 304 - http-bio-9090-exec-3 6
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:27:59 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9090-exec-4 2
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:28:07 +0800] "POST /AdminUser/Login.do HTTP/1.1" 200 49 http-bio-9090-exec-5 738
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:28:07 +0800] "GET /AdminIndex.do HTTP/1.1" 200 8715 http-bio-9090-exec-6 367
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:28:07 +0800] "GET /home HTTP/1.1" 200 3334 http-bio-9090-exec-7 4
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:28:15 +0800] "GET /AdminTable/Search.do HTTP/1.1" 200 6921 http-bio-9090-exec-9 329
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:13 +0800] "GET /AdminTable/Search.do?Cunt=2&DinnerTableName= HTTP/1.1" 302 - http-bio-9090-exec-2 4
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:13 +0800] "GET /AdminUser/ToLogin.do HTTP/1.1" 200 454 http-bio-9090-exec-2 46
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:13 +0800] "GET / HTTP/1.1" 200 2964 http-bio-9090-exec-4 4
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:23 +0800] "POST /AdminUser/Login.do HTTP/1.1" 200 49 http-bio-9090-exec-4 129
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:23 +0800] "GET /AdminIndex.do HTTP/1.1" 200 8715 http-bio-9090-exec-4 5
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:23 +0800] "GET /home HTTP/1.1" 200 3334 http-bio-9090-exec-4 1
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:27 +0800] "GET /AdminTable/Search.do HTTP/1.1" 200 6921 http-bio-9090-exec-4 10
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:29 +0800] "GET /AdminTable/Search.do?Cunt=2&DinnerTableName= HTTP/1.1" 200 5570 http-bio-9090-exec-4 9
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:33 +0800] "POST /AdminTable/TuiZhuo.do HTTP/1.1" 200 49 http-bio-9090-exec-4 222
+0:0:0:0:0:0:0:1 - - [01/Dec/2019:19:29:34 +0800] "GET /AdminTable/Search.do?Cunt=2&DinnerTableName= HTTP/1.1" 200 5469 http-bio-9090-exec-4 9
